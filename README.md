@@ -1,12 +1,12 @@
 # Cypher Jammer
 
-## Open-source Wireless Jamming Pentesting Device
+### Open-source Wireless Jamming Pentesting Device
 
-## Designed to also work with a flipper zero, and has some extra pins to add other modules!
+### Designed to also work with a flipper zero, and has some extra pins to add other modules!
 
-## Order my PCB from PCBWay & get a $10 coupon ^_^ : https://pcbway.com/g/87Pi52
+### Order my PCB from PCBWay & get a $10 coupon ^_^ : https://pcbway.com/g/87Pi52
 
-## All thanks to the lovely Smoochie, please check out his work, especially Noisy Boy! This PCB has the same pins so you can test his firmware.
+### All thanks to the lovely Smoochie, please check out his work, especially Noisy Boy! This PCB has the same pins so you can test his firmware.
 
 <img src="image/cypher_jammer1.JPG" alt="Wifi and Bluetooth jammer made with an esp32 and nrf24l01+pa+lna modules." width="400" height="600">
 <img src="image/cypher_jammer2.JPG" alt="Wifi and Bluetooth jammer made with an esp32 and nrf24l01+pa+lna modules." width="400" height="600">
