@@ -1,6 +1,6 @@
 # Cypher Jammer
 
-### Open-source Wireless Jamming Pentesting Device
+### Open-source Wireless Jamming Pentesting Device using ESP32-WROOM-32D & 2 NRFL01+PA+LNA Modules
 
 ### Designed to also work with a flipper zero, and has some extra pins to add other modules!
 
