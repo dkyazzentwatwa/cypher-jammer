@@ -1,6 +1,5 @@
 #include "RF24.h"
 #include <SPI.h>
-#include <ezButton.h>
 #include "esp_bt.h"
 #include "esp_wifi.h"
 
@@ -19,11 +18,6 @@ unsigned int flag = 0;   //HSPI// Flag variable to keep track of direction
 unsigned int flagv = 0;  //VSPI// Flag variable to keep track of direction
 int ch = 45;    // Variable to store value of ch
 int ch1 = 45;   // Variable to store value of ch
-
-ezButton toggleSwitch(33);
-
-
-
 
 void two() {
   if (flagv == 0) {  // If flag is 0, increment ch by 4 and ch1 by 1
@@ -77,8 +71,6 @@ void one() {
 
 }
 
-
-
 void setup() {
 
   Serial.begin(115200);
@@ -86,8 +78,6 @@ void setup() {
   esp_wifi_stop();
   esp_wifi_deinit();
   esp_wifi_disconnect();
-  toggleSwitch.setDebounceTime(50);
-
   initHP();
   initSP();
 }
@@ -128,22 +118,7 @@ void initHP() {
 }
 
 void loop() {
-
-
-  toggleSwitch.loop();  // MUST call the loop() function first
-
-  /* if (toggleSwitch.isPressed())
-    Serial.println("one");
-  if (toggleSwitch.isReleased())
-    Serial.println("two");*/
-
-  int state = toggleSwitch.getState();
-
-
-  if (state == HIGH)
-    two();
-
-  else {
+// switch out one() for whatever
     one();
-  }
+
 }
